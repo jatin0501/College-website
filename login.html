@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 18px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-image: url(login.gif);
+        }
+        label{
+            padding-right: 20px;
+            
+        }
+        .main{
+            margin-top: 20%;
+            background-color: rgb(140, 140, 196);
+            
+        }
+    </style>
+    
+</head>
+<body>
+    <script src="script.js"></script>
+</body>
+<form action="">
+    <div class="main " align="center">
+    <label for="usernamw">Enter username</label>
+    <input type="text" id="user">
+    <br>
+    <br>
+    <label for="password">Enter password</label>
+    <input type="password" name="pass" id="pass">
+    <br>
+    <br>
+    <input type="button" value="submit" id="sub" onClick="check(user.value,pass.value)">
+</div>
+</form>
+
+</html>
